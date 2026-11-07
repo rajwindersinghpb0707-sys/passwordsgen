@@ -336,3 +336,4 @@ def main(page: ft.Page):
 
 
 ft.run(main)
+app = ft.run(main, export_asgi_app=True)
